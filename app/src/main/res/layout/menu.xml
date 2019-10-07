@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/btnAverage"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="109dp"
+        android:text="Calcular Média"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnWhatINeed"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="109dp"
+        android:text="QUANTO PRECISO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAverage" />
+
+    <Button
+        android:id="@+id/btnCitizenship"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="109dp"
+        android:text="CIDADANIA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWhatINeed" />
+
+    <Button
+        android:id="@+id/btnHealth"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="109dp"
+        android:text="SAUDE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCitizenship" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="102dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="317dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="88dp"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

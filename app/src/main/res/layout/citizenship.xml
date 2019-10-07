@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="24dp"
+        android:text="Cidadania"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="351dp"
+        android:layout_height="446dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="27dp"
+        android:text="O conceito de cidadania é uma ideia dinâmica que se renova constantemente diante das transformações sociais, dos contextos históricos e principalmente diante das mudanças de paradigmas ideológicos. A cidadania conhecida na antiguidade clássica não é a mesma cidadania pela qual lutamos hoje e a que aspiramos concretizar nas gerações futuras.  As ideias iluministas foram muito importantes para o desenvolvimento do que hoje entendemos por cidadania. Os filósofos iluministas, sobretudo John Locke, Voltaire e Jean-Jacques Rousseau, formularam as bases para a percepção moderna da relação entre Estado e indivíduos, ao conceber o ser humano como um indivíduo dotado de razão e de direitos intrínsecos à natureza (“direitos naturais”), como o direito à vida, à liberdade e à propriedade. Desta forma, abriu-se espaço para o nascimento do Estado de Direito.  A base para a concepção de cidadania é a noção de Direito. E a história do desenvolvimento da cidadania está relacionada à conquista de quatro tipos de direitos: os direitos civis, políticos, sociais e humanos.  Há muito tempo cidadania deixou de ser simplesmente o direito de votar e ser votado e assumiu a luta pela educação de qualidade, saúde, informação, poder de participação na vida pública, igualdade de oportunidades, etc. Desta forma, a história da cidadania foi por muitas vezes confundida com a história das lutas pelos direitos humanos."
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
